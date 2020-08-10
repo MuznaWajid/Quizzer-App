@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;}
+.wrapper{display: flex;
+justify-content: center;
+height: 100vh;width: 100vw;align-items: center;
+background-color: rgb(128, 110, 206);
+}
+.Insta-colomn{
+background-image: url(/istockphoto-1138395421-612x612.jpg) ;
+/* padding: 45px;
+margin: 65px;
+height: 100%;display: table; ;width: 100%; */
+background-size: cover;
+width: 600px;
+}
+#usr{display: block; width: 100%;margin-bottom: 15px;
+border-bottom: 2px solid white;
+background: transparent;
+}
+#user{display: block;width: 100%;}
+.btn :hover{color: rgb(28, 29, 29);
+  cursor: pointer ;}
+.btn{border: none;
+   border-radius: 30px;
+   margin: 20px;padding: 30px;
+   font-size: 40px; 
+   transform: translateX(5px);
+   color: rgb(231, 240, 248);}
+.text-center{color: white;}
+/* .Timer1{width: 650px;height: 300px;background-color: rgb(151, 202, 243);}
+.Timer{margin-top: 100px;color: teal;} */
+.quizer{display: grid; 
+  grid-template-rows: 60px auto;
+  width: 800px;height: 500px; background-color: rgb(245, 245, 245);}
+.quizer_head{background-color: turquoise;}
+.quizer_body{background-color: yellow;}
+
